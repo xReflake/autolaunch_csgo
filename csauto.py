@@ -1,6 +1,9 @@
 import os
 import time
 xq = 0
+#Очистка
+os.system('taskkill /IM steam.exe /F')
+os.system('taskkill /IM csgo.exe /F')
 #Запуск
 print ('Введите номер пачки: ')
 pak = int(input()) #Переменная пака
